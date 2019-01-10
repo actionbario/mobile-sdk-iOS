@@ -1,7 +1,7 @@
 # Simpo SDK
 
 This is a dynamic framework which is distributed with closed sources.  
-Latest version: 1.0.5
+Latest version: 1.0.0
 
 Installation instructions:
 - [Carthage](#carthage)
