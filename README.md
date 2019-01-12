@@ -1,4 +1,4 @@
-# Simpo SDK
+# Simpo SDK for iOS
 
 This is a dynamic framework which is distributed with closed sources.  
 Latest version: 1.0.0
@@ -16,9 +16,9 @@ $ brew install carthage
 ```
 2. Create `Cartfile` in the project root dir with the content:  
 ```bash
-github "vvit/SimpoSDK"
+github "actionbario/mobile-sdk-iOS"
 ```
-_TODO: update repo path_  
+
 3. Install the dependency:  
 ```bash
 carthage update --platform iOS
