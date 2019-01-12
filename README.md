@@ -58,7 +58,7 @@ $ sudo gem install cocoapods
 ```bash
 pod init
 ```
-3. Install the dependency by adding `pod 'SimpoTest'` _(TODO: update name)_ into the `Podfile`. Then run:
+3. Install the dependency by adding `pod 'SimpoSDK'` _(TODO: update name)_ into the `Podfile`. Then run:
 ```bash
 $ pod update
 ```
@@ -67,8 +67,8 @@ So the `Podfile` looks like this:
 ```bash
 platform :ios, '9.3'
 
-target 'CocoapodExample' do
+target '<Project name>' do
   use_frameworks!
-  pod 'SimpoTest'
+  pod 'SimpoSDK'
 end
 ````
