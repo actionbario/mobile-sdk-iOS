@@ -58,7 +58,7 @@ $ sudo gem install cocoapods
 ```bash
 pod init
 ```
-3. Install the dependency by adding `pod 'SimpoSDK'` _(TODO: update name)_ into the `Podfile`. Then run:
+3. Install the dependency by adding `pod 'SimpoSDK'` into the `Podfile`. Then run:
 ```bash
 $ pod update
 ```
