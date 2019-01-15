@@ -1,7 +1,7 @@
 # Simpo SDK for iOS
 
-This is a dynamic framework which is distributed with closed sources.  
-Latest version: 1.0.0
+This is a dynamic framework.
+Latest version: 1.0.1
 
 Installation instructions:
 - [Carthage](#carthage)
