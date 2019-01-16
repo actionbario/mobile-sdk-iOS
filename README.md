@@ -47,9 +47,13 @@ github "actionbario/mobile-sdk-iOS"
 carthage update --platform iOS
 ```
 4. Add `Simpo.framework` (located in `<project-root>/Carthage/Build/iOS`) to the `Linked Frameworks and Libraries`:  
-![picture](https://github.com/vvit/SimpoSDK/blob/master/carthage1.png)
-5. Add a `Run Script` build phase with this content:  
-![picture](https://github.com/vvit/SimpoSDK/blob/master/carthage2.png)
+![picture](http://uploads.simpo.io.s3.amazonaws.com/mobile/carthage1.png)
+5. Add a `Run Script` build phase with this content: 
+  - shell script (if not exist): /usr/local/bin/carthage copy-frameworks
+  - input Files: $(SRCROOT)/Carthage/Build/iOS/Simpo.framework
+  - output Files: $(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Simpo.framework
+  
+![picture](http://uploads.simpo.io.s3.amazonaws.com/mobile/carthage2.png)
 6. Optional if CocoaPods script `[CP] Embed Pods Frameworks` exists.  
 Solves the AppStore submission issue.  
 Add a `Run Script` build phase with the name `Carthage Strip Architectures` and this content:
