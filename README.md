@@ -18,7 +18,7 @@
   must be called after init, will open Simpo interface
 ### Example
 ```
-        let ucid = "<Enter your UCID here>"
+        let ucid = "Enter your UCID here"
         let options = SimpoOptions(show: true, dimensions: CGSize(width: 55, height: 55), userEmail: "test@simppo.io")
         Simpo.init(ucid: ucid, options: options)
 ```
