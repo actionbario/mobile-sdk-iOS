@@ -17,10 +17,20 @@
 - #### open()
   must be called after init, will open Simpo interface
 ### Example
+Swift:  
 ```
-        let ucid = "Enter your UCID here"
-        let options = SimpoOptions(show: true, dimensions: CGSize(width: 55, height: 55), userEmail: "test@simppo.io")
-        Simpo.init(ucid: ucid, options: options)
+    let ucid = "Enter your UCID here"
+    let options = SimpoOptions(show: true, dimensions: CGSize(width: 55, height: 55), userEmail: "test@simppo.io")
+    Simpo.init(ucid: ucid, options: options)
+```
+Objective-C:  
+```
+  #import <Simpo/Simpo-Swift.h>
+  
+  NSString *ucid = @"Enter your UCID here";
+  SimpoOptions *options = [[SimpoOptions alloc] initWithShow:YES position:SimpoWidgetPositionBottomRight dimensions:CGSizeMake(55, 55) userEmail:@"test@simppo.io" userName:NULL uuid:NULL];
+  [Simpo initWithUcid:ucid options:options];
+  
 ```
 
 
